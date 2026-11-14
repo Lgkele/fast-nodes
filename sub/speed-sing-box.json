@@ -12,160 +12,175 @@
   ],
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "fast-001",
-      "server": "66.163.112.121",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "66.163.112.121",
-        "insecure": true
-      }
+      "server": "84.17.41.2",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0
     },
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "fast-002",
-      "server": "66.163.112.242",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.nextjobopportunityandclaimyouridealrole.com",
-        "insecure": true
-      }
+      "server": "138.199.43.159",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
       "type": "shadowsocks",
       "tag": "fast-003",
-      "server": "216.105.168.18",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "hCCWOcIsK5wrFz4OX70rWf"
+      "server": "137.184.89.151",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
       "tag": "fast-004",
-      "server": "95.215.201.18",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "server": "23.251.121.242",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
       "type": "shadowsocks",
       "tag": "fast-005",
-      "server": "23.150.152.38",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "fast-006",
-      "server": "79.110.54.250",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "fast-007",
-      "server": "107.151.182.197",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "fast-008",
-      "server": "192.255.152.147",
-      "server_port": 443,
-      "password": "yO8pug5XmwkBXBAjleYIaVt",
-      "tls": {
-        "enabled": true,
-        "server_name": "192.255.152.147",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "fast-009",
-      "server": "38.145.220.193",
-      "server_port": 8443,
-      "method": "2022-blake3-aes-128-gcm",
-      "password": "jUbDNsFamcyDfpm+rI3Zyw=="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "fast-010",
-      "server": "107.151.182.253",
+      "server": "107.155.57.51",
       "server_port": 8080,
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
       "type": "trojan",
-      "tag": "fast-011",
-      "server": "66.163.112.31",
+      "tag": "fast-006",
+      "server": "66.163.114.126",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "unlockyourfuturefindyourperfectcareer.com",
+        "server_name": "resources.findconnectwithemployersandbuildprofessionalnetwork.com",
         "insecure": true
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "fast-012",
-      "server": "216.105.168.18",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "bQZl7HDxSabr1FurTYQHFU"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "fast-013",
+      "tag": "fast-007",
       "server": "79.110.53.169",
       "server_port": 8080,
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
-      "type": "vless",
-      "tag": "fast-014",
-      "server": "85.155.179.206",
+      "type": "trojan",
+      "tag": "fast-008",
+      "server": "66.163.114.132",
       "server_port": 443,
-      "uuid": "86a83d11-d751-4b60-aa4e-1dca5cff7028",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "/@Net2ray",
+        "server_name": "66.163.114.132",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "fast-009",
+      "server": "66.163.114.166",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.findconnectwithemployersandbuildprofessionalnetwork.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "fast-010",
+      "server": "www.shopify.com",
+      "server_port": 443,
+      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "guanwang.awsno.com",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/hls/cctv5phd.m3u8",
+        "headers": {
+          "Host": "guanwang.awsno.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "fast-011",
+      "server": "104.21.0.1",
+      "server_port": 2083,
+      "uuid": "ac251237-576f-40c8-a543-554960c958b1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "or3.sfacg.uk",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/or3",
+        "headers": {
+          "Host": "or3.sfacg.uk"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "fast-012",
+      "server": "107.155.57.11",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "trojan",
+      "tag": "fast-013",
+      "server": "216.106.186.155",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.findlocaljobnetworkandbuildcommunityconnections.com",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "fast-015",
-      "server": "172.67.199.126",
-      "server_port": 2053,
-      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "tag": "fast-014",
+      "server": "104.19.164.155",
+      "server_port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
         "enabled": true,
-        "server_name": "fast.145779.xyz",
+        "server_name": "jp3.yohototo.top",
         "insecure": true
       },
       "transport": {
         "type": "ws",
-        "path": "/ws-tesla",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "fast.145779.xyz"
+          "Host": "jp3.yohototo.top"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "fast-016",
-      "server": "23.144.124.76",
+      "tag": "fast-015",
+      "server": "104.19.12.94",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -183,28 +198,106 @@
     },
     {
       "type": "vmess",
-      "tag": "fast-017",
-      "server": "129.146.143.80",
-      "server_port": 48111,
-      "uuid": "d4603cc2-e0ee-4651-83f5-1db5b7168177",
+      "tag": "fast-016",
+      "server": "chatgpt.com",
+      "server_port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
       "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "trojan",
-      "tag": "fast-018",
-      "server": "66.163.112.147",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "courses.unlockyourfuturefindyourperfectcareer.com",
+        "server_name": "v2ray1.dozapp.xyz",
         "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/lMnsZUN4/",
+        "headers": {
+          "Host": "v2ray1.dozapp.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "fast-017",
+      "server": "104.16.10.22",
+      "server_port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
       }
     },
     {
       "type": "vmess",
+      "tag": "fast-018",
+      "server": "188.114.96.3",
+      "server_port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray1.dozapp.xyz",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/lMnsZUN4/",
+        "headers": {
+          "Host": "v2ray1.dozapp.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "fast-019",
+      "server": "162.159.254.3",
+      "server_port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "fast-020",
+      "server": "104.21.70.228",
+      "server_port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "fast-021",
       "server": "104.21.91.53",
       "server_port": 8443,
       "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
@@ -225,28 +318,7 @@
     },
     {
       "type": "vmess",
-      "tag": "fast-020",
-      "server": "188.114.96.3",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lMnsZUN4/",
-        "headers": {
-          "Host": "v2ray1.dozapp.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "fast-021",
+      "tag": "fast-022",
       "server": "162.159.130.234",
       "server_port": 2083,
       "uuid": "ac251237-576f-40c8-a543-554960c958b1",
@@ -267,27 +339,8 @@
     },
     {
       "type": "vless",
-      "tag": "fast-022",
-      "server": "172.67.156.147",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "fast-023",
-      "server": "104.16.10.2",
+      "server": "188.114.97.6",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -306,7 +359,7 @@
     {
       "type": "vless",
       "tag": "fast-024",
-      "server": "104.19.33.25",
+      "server": "104.16.10.104",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -325,7 +378,7 @@
     {
       "type": "vless",
       "tag": "fast-025",
-      "server": "104.16.111.195",
+      "server": "172.67.217.240",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -344,7 +397,7 @@
     {
       "type": "vless",
       "tag": "fast-026",
-      "server": "104.21.6.186",
+      "server": "104.16.10.48",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -363,7 +416,7 @@
     {
       "type": "vless",
       "tag": "fast-027",
-      "server": "104.16.10.234",
+      "server": "104.16.10.72",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -382,211 +435,7 @@
     {
       "type": "vless",
       "tag": "fast-028",
-      "server": "104.19.164.155",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "fast-029",
-      "server": "104.21.33.59",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "fast-030",
-      "server": "104.24.0.1",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "fast-031",
-      "server": "154.40.59.238",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "fast-032",
-      "server": "104.16.10.56",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "fast-033",
-      "server": "104.16.111.102",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "fast-034",
-      "server": "104.16.10.135",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "fast-035",
-      "server": "104.21.0.1",
-      "server_port": 2083,
-      "uuid": "ac251237-576f-40c8-a543-554960c958b1",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "or3.sfacg.uk",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/or3",
-        "headers": {
-          "Host": "or3.sfacg.uk"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "fast-036",
-      "server": "104.16.10.185",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "fast-037",
-      "server": "66.163.112.13",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "66.163.112.13",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "fast-038",
-      "server": "104.19.12.94",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "fast-039",
-      "server": "216.167.127.197",
+      "server": "104.16.10.234",
       "server_port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
@@ -633,18 +482,7 @@
         "fast-025",
         "fast-026",
         "fast-027",
-        "fast-028",
-        "fast-029",
-        "fast-030",
-        "fast-031",
-        "fast-032",
-        "fast-033",
-        "fast-034",
-        "fast-035",
-        "fast-036",
-        "fast-037",
-        "fast-038",
-        "fast-039"
+        "fast-028"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "5m"
