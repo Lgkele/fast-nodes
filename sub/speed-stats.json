@@ -1,11 +1,12 @@
 {
-  "updated_at": "2026-11-14T19:28:35Z",
-  "total_nodes": 28,
+  "updated_at": "2026-11-15T08:59:31Z",
+  "total_nodes": 70,
   "protocols": {
-    "ss": 6,
-    "trojan": 4,
-    "vless": 11,
-    "vmess": 7
+    "hysteria2": 1,
+    "ss": 13,
+    "trojan": 17,
+    "vless": 29,
+    "vmess": 10
   },
   "test_method": "sing-box real HTTP proxy test (request to https://www.gstatic.com/generate_204 through the node, 8s timeout) after TCP latency probe; sorted by measured HTTP latency through the proxy",
   "sources": [
@@ -17,7 +18,7 @@
     "https://raw.githubusercontent.com/Lgkele/node-sub-zixf/main/sub/base64.txt",
     "https://raw.githubusercontent.com/Lgkele/node-sub-zixf/main/sub/v2cross-base64.txt"
   ],
-  "tcp_reachable": 1075,
-  "sing_box_passed": 28,
-  "latency_ms_top": 37.5
+  "tcp_reachable": 973,
+  "sing_box_passed": 70,
+  "latency_ms_top": 35.8
 }
