@@ -6,1142 +6,63 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - name: "fast-001"
-    type: trojan
-    server: "162.159.91.211"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
+    type: ss
+    server: "135.148.42.13"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "itzvpn@321"
   - name: "fast-002"
-    type: trojan
-    server: "45.130.125.126"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
+    type: ss
+    server: "193.151.163.18"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   - name: "fast-003"
     type: vless
-    server: "104.16.111.102"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
+    server: "45.138.100.248"
+    port: 10443
+    uuid: "ae908ff5-f749-402c-af25-e6e9aef4d6bb"
   - name: "fast-004"
-    type: vmess
-    server: "188.114.98.121"
+    type: ss
+    server: "198.98.53.130"
     port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "day16.lfebdxj3mh.workers.dev"
-    network: ws
-    ws-opts:
-      path: "/rush-6it6b.teeopp.quest/"
-      headers:
-        Host: "day16.lfebdxj3mh.workers.dev"
+    cipher: "chacha20-ietf-poly1305"
+    password: "eDfN7SODQceIOmIAbtJJtK"
   - name: "fast-005"
-    type: trojan
-    server: "172.66.40.99"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.trusteeforward.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.trusteeforward.com"
+    type: ss
+    server: "98.98.79.198"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
   - name: "fast-006"
-    type: trojan
-    server: "172.67.203.46"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.cordweave.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.cordweave.com"
+    type: vmess
+    server: "67.220.85.46"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
   - name: "fast-007"
-    type: vless
-    server: "104.19.173.68"
-    port: 8080
-    uuid: "2500e602-671c-4654-a602-c518b7282167"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "2639w-throbbing-band-3840.xphnn6jp.workers.dev"
+    type: ss
+    server: "38.91.100.39"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   - name: "fast-008"
-    type: vmess
-    server: "104.19.21.63"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "ip11.freegradely.xyz"
+    type: ss
+    server: "200.102.179.179"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "itzvpn@321"
   - name: "fast-009"
-    type: vless
-    server: "27.50.48.6"
-    port: 443
-    uuid: "c98a16e4-0dc5-42f0-b3db-30f04525c123"
-    network: ws
-    ws-opts:
-      path: "/fp=chromesecurity=tls"
-      headers:
-        Host: "vless2-8vx.pages.dev"
+    type: vmess
+    server: "38.91.100.69"
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    servername: "xmfhlpy.com"
   - name: "fast-010"
-    type: vless
-    server: "104.21.6.186"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-011"
-    type: trojan
-    server: "104.18.152.208"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-  - name: "fast-012"
-    type: vless
-    server: "104.26.13.31"
-    port: 8080
-    uuid: "3e06b1db-2efb-446e-ba2d-68850dfd2f9d"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "bdfba-cool-tree-b580.v8fz4kbv.workers.dev"
-  - name: "fast-013"
-    type: vless
-    server: "104.16.10.104"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-014"
-    type: vmess
-    server: "104.17.47.58"
-    port: 443
-    uuid: "824c58b1-65ba-4680-a609-663a000dbb92"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      path: "/wss13889"
-  - name: "fast-015"
-    type: vless
-    server: "104.16.10.2"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-016"
-    type: trojan
-    server: "104.18.32.47"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-017"
-    type: vless
-    server: "104.17.210.74"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-018"
-    type: vless
-    server: "88.216.67.54"
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-47be357e54da"
-    tls: true
-    servername: "52z4vtewuass.game4090taking.workers.dev"
-    network: ws
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/47be357e54da/loc-0fp=chrome"
-      headers:
-        Host: "52z4vtewuass.game4090taking.workers.dev"
-  - name: "fast-019"
-    type: trojan
-    server: "188.114.97.4"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "fast-020"
-    type: vless
-    server: "92.53.188.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime18.workers.dev"
-  - name: "fast-021"
-    type: vless
-    server: "172.67.217.240"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-022"
-    type: vless
-    server: "172.67.174.157"
-    port: 2083
-    uuid: "283665ab-54c2-4c59-ac55-5e8388558eba"
-    tls: true
-    servername: "27l432tlhnpcojr6u0d3.adfasdfadfasdf.workers.dev"
-    network: ws
-    ws-opts:
-      path: "/vl/oCCSZfAWhGqcVO3WOEnIPj9Z9ke?ed"
-      headers:
-        Host: "27l432tlhnpcojr6u0d3.adfasdfadfasdf.workers.dev"
-  - name: "fast-023"
-    type: trojan
-    server: "104.25.0.1"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-024"
-    type: vless
-    server: "104.238.68.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime47.workers.dev"
-  - name: "fast-025"
-    type: vless
-    server: "188.114.97.6"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-026"
-    type: vmess
-    server: "172.66.2.208"
-    port: 443
-    uuid: "927094d3-d678-4763-8591-e240d0bcae87"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      path: "/vsg1.0bad.com/chat"
-  - name: "fast-027"
-    type: vless
-    server: "185.193.29.40"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime08.workers.dev"
-  - name: "fast-028"
-    type: vless
-    server: "104.16.10.48"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-029"
-    type: vmess
-    server: "172.66.0.1"
-    port: 443
-    uuid: "0cf6d970-3f1d-4aae-a989-92a8f76ae3db"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      path: "/ws"
-  - name: "fast-030"
-    type: vless
-    server: "154.218.15.250"
-    port: 2083
-    uuid: "40af9131-d540-448a-bc56-5bba147a1dc3"
-    tls: true
-    servername: "proxy-1cu.pages.dev"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "proxy-1cu.pages.dev"
-  - name: "fast-031"
-    type: vmess
-    server: "162.159.130.234"
-    port: 2083
-    uuid: "ac251237-576f-40c8-a543-554960c958b1"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "cdn.sfacg.uk"
-    network: ws
-    ws-opts:
-      path: "/or3"
-      headers:
-        Host: "or3.sfacg.uk"
-  - name: "fast-032"
-    type: vmess
-    server: "104.21.7.133"
-    port: 443
-    uuid: "0cf6d970-3f1d-4aae-a989-92a8f76ae3db"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "vmess.lbw666.dpdns.org"
-    network: ws
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: "vmess.lbw666.dpdns.org"
-  - name: "fast-033"
-    type: vmess
-    server: "188.114.96.3"
-    port: 8443
-    uuid: "60441548-b68e-43b2-8191-e3b884be4b3c"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "v2ray1.dozapp.xyz"
-    network: ws
-    ws-opts:
-      path: "/lMnsZUN4/"
-      headers:
-        Host: "v2ray1.dozapp.xyz"
-  - name: "fast-034"
-    type: vmess
-    server: "104.21.81.238"
-    port: 80
-    uuid: "92eb32af-ec3c-40d4-ab83-c3df80af64af"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "fast-035"
-    type: trojan
-    server: "45.130.125.75"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-036"
-    type: vless
-    server: "170.114.46.6"
-    port: 8080
-    uuid: "990bf436-f1b9-4e7f-857d-14378acc4ae5"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "free.nadun.store"
-  - name: "fast-037"
-    type: vless
-    server: "104.21.70.21"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-038"
-    type: vless
-    server: "15.204.97.214"
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    flow: "xtls-rprx-vision"
-    tls: true
-    servername: "fuck.rkn"
-  - name: "fast-039"
-    type: vless
-    server: "104.21.34.106"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-040"
-    type: trojan
-    server: "104.16.72.50"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-041"
-    type: vless
-    server: "104.16.10.234"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-042"
-    type: vmess
-    server: "172.64.229.116"
-    port: 8880
-    uuid: "4b5e4565-322f-4223-a891-78a84f189726"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "/GdtYWlsLmNvbSJ9LCJjb3V"
-  - name: "fast-043"
-    type: trojan
-    server: "104.19.95.153"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-044"
-    type: vmess
-    server: "104.20.36.139"
-    port: 80
-    uuid: "2d14e84b-226b-412a-9a3c-ffce70b02bdf"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "/vmess"
-      headers:
-        Host: "127.0.0.1.dl.эврика.mrarsha.尤里卡.醫生.специалист.wonkacapitano.buzz."
-  - name: "fast-045"
-    type: vless
-    server: "155.46.167.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime50.workers.dev"
-  - name: "fast-046"
-    type: vmess
-    server: "104.17.77.77"
-    port: 8443
-    uuid: "60441548-b68e-43b2-8191-e3b884be4b3c"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "v2ray1.dozapp.xyz"
-    network: ws
-    ws-opts:
-      path: "/lMnsZUN4/"
-      headers:
-        Host: "v2ray1.dozapp.xyz"
-  - name: "fast-047"
-    type: trojan
-    server: "104.18.152.50"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-  - name: "fast-048"
-    type: vless
-    server: "15.204.97.219"
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    flow: "xtls-rprx-vision"
-    tls: true
-    servername: "fuck.rkn"
-  - name: "fast-049"
-    type: vmess
-    server: "147.185.161.169"
-    port: 443
-    uuid: "824c58b1-65ba-4680-a609-663a000dbb92"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      path: "/wss13889"
-  - name: "fast-050"
-    type: vmess
-    server: "104.31.16.3"
-    port: 2087
-    uuid: "98bd45bd-ad4a-4480-87b2-84f81c09aaa8"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ""
-  - name: "fast-051"
-    type: vless
-    server: "104.17.50.53"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-052"
-    type: trojan
-    server: "188.114.97.6"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.trusteeforward.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.trusteeforward.com"
-  - name: "fast-053"
-    type: vmess
-    server: "104.31.16.26"
-    port: 80
-    uuid: "8abe9496-5e24-4e49-b566-dcf86116017d"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "/i99LgvSaslbsPLLQQ7j6Z"
-  - name: "fast-054"
-    type: vless
-    server: "104.234.239.139"
-    port: 443
-    uuid: "70756c73-0000-4000-8000-650000000000"
-    tls: true
-    servername: "parsa-panel-u48we.wotic15356.workers.dev"
-    network: ws
-    ws-opts:
-      path: "/pulse"
-      headers:
-        Host: "parsa-panel-u48we.wotic15356.workers.dev"
-  - name: "fast-055"
-    type: vmess
-    server: "104.31.16.58"
-    port: 443
-    uuid: "F591CE71-33F8-4B12-824A-0167FA839ED9"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    network: ws
-    ws-opts:
-      path: "/speedtest"
-  - name: "fast-056"
-    type: trojan
-    server: "8.6.112.206"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.trusteeforward.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.trusteeforward.com"
-  - name: "fast-057"
-    type: vless
-    server: "104.16.10.185"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-058"
-    type: vless
-    server: "188.164.248.110"
-    port: 443
-    uuid: "13134515-adc7-404b-8d2a-f9ad99e8dcbd"
-    tls: true
-    servername: "imanvipreserved.pages.dev"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "imanvipreserved.pages.dev"
-  - name: "fast-059"
-    type: trojan
-    server: "104.16.174.22"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-  - name: "fast-060"
-    type: trojan
-    server: "104.25.240.193"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-061"
-    type: vless
-    server: "104.18.42.98"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-062"
-    type: vmess
-    server: "104.21.236.60"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳"
-      headers:
-        Host: "a.prapt4.ir"
-  - name: "fast-063"
-    type: vless
-    server: "104.16.10.56"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-064"
-    type: vmess
-    server: "172.67.167.78"
-    port: 8443
-    uuid: "60441548-b68e-43b2-8191-e3b884be4b3c"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "v2ray1.dozapp.xyz"
-    network: ws
-    ws-opts:
-      path: "/lMnsZUN4/"
-      headers:
-        Host: "v2ray1.dozapp.xyz"
-  - name: "fast-065"
-    type: trojan
-    server: "172.64.231.133"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-066"
-    type: vless
-    server: "104.18.40.171"
-    port: 443
-    uuid: "8895be79-9817-4011-b81a-14a35a3d328e"
-    tls: true
-    servername: "wallweb-boi.pages.dev"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "wallweb-boi.pages.dev"
-  - name: "fast-067"
-    type: vless
-    server: "104.21.33.59"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-068"
-    type: vless
-    server: "104.19.33.25"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-069"
-    type: trojan
-    server: "104.16.7.70"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-070"
-    type: vless
-    server: "104.21.70.228"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-071"
-    type: vless
-    server: "104.27.46.35"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-072"
-    type: vless
-    server: "15.204.97.206"
-    port: 23576
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    flow: "xtls-rprx-vision"
-    tls: true
-    servername: "fuck.rkn"
-  - name: "fast-073"
-    type: trojan
-    server: "104.17.206.147"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.trusteeforward.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.trusteeforward.com"
-  - name: "fast-074"
-    type: vless
-    server: "104.24.31.89"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-075"
-    type: vless
-    server: "172.67.199.126"
-    port: 2053
-    uuid: "c83f15bf-1817-4ec8-a19f-6393d226434c"
-    tls: true
-    servername: "fast.145779.xyz"
-    network: ws
-    ws-opts:
-      path: "/ws-tesla"
-      headers:
-        Host: "fast.145779.xyz"
-  - name: "fast-076"
-    type: vless
-    server: "188.114.98.0"
-    port: 443
-    uuid: "ec24cde1-6bd9-4b69-baf7-270e8aabd6dd"
-    network: ws
-    ws-opts:
-      path: "/?ed=2560fp=unsafesecurity=tls"
-      headers:
-        Host: "rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV"
-  - name: "fast-077"
-    type: vless
-    server: "104.16.10.135"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-078"
-    type: vmess
-    server: "141.101.114.20"
-    port: 443
-    uuid: "176b598f-445b-41ac-9d2a-430c5c4df26a"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "clash1.trump2023.net"
-    network: ws
-    ws-opts:
-      path: "/dongtaiwang.com"
-      headers:
-        Host: "clash1.trump2023.net"
-  - name: "fast-079"
-    type: vless
-    server: "104.18.28.234"
-    port: 443
-    uuid: "615d9f74-4d51-bad3-f240-2a8400000001"
-    tls: true
-    servername: "main.packetloss-com.workers.dev"
-    network: ws
-    ws-opts:
-      path: "/silaber"
-      headers:
-        Host: "main.packetloss-com.workers.dev"
-  - name: "fast-080"
-    type: trojan
-    server: "104.16.174.6"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-  - name: "fast-081"
-    type: trojan
-    server: "104.18.152.152"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-  - name: "fast-082"
-    type: vless
-    server: "104.16.10.72"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-083"
-    type: vmess
-    server: "172.64.80.1"
-    port: 8443
-    uuid: "60441548-b68e-43b2-8191-e3b884be4b3c"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "v2ray1.dozapp.xyz"
-    network: ws
-    ws-opts:
-      path: "/lMnsZUN4/"
-      headers:
-        Host: "v2ray1.dozapp.xyz"
-  - name: "fast-084"
-    type: vmess
-    server: "172.67.79.117"
-    port: 443
-    uuid: "bd014532-1f8b-4d33-b79d-50131d8d4633"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "www.998808.xyz"
-    network: ws
-    ws-opts:
-      path: "/vbje5ytgwfgdrhe"
-      headers:
-        Host: "www.998808.xyz"
-  - name: "fast-085"
-    type: vmess
-    server: "172.64.150.57"
-    port: 8080
-    uuid: "e3fa5050-67f5-4625-a778-5d9283f4334f"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "/m3"
-  - name: "fast-086"
-    type: vless
-    server: "104.21.0.87"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-087"
-    type: vless
-    server: "104.19.48.107"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-088"
-    type: vless
-    server: "104.16.10.22"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-089"
-    type: vless
-    server: "170.114.45.6"
-    port: 80
-    uuid: "f028d829-249a-4692-b45f-1b4cde8ef0c7"
-    tls: true
-    servername: "free.sahanwickramasinghe.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "free.sahanwickramasinghe.com"
-  - name: "fast-090"
-    type: vless
-    server: "172.64.152.52"
-    port: 443
-    uuid: "2d4b819d-6fa6-4db2-8434-61e7db0fe93c"
-    tls: true
-    servername: "cf.zhahui.de5.net"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "cf.zhahui.de5.net"
-  - name: "fast-091"
-    type: trojan
-    server: "104.27.0.1"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-092"
-    type: vmess
-    server: "104.19.59.89"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "ip2.1457230.xyz"
-  - name: "fast-093"
-    type: vmess
-    server: "104.21.0.1"
-    port: 2083
-    uuid: "ac251237-576f-40c8-a543-554960c958b1"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "or3.sfacg.uk"
-    network: ws
-    ws-opts:
-      path: "/or3"
-      headers:
-        Host: "or3.sfacg.uk"
-  - name: "fast-094"
-    type: vless
-    server: "141.193.213.10"
-    port: 443
-    uuid: "977b814d-d9e0-4889-bb71-98d6bfb8f462"
-    tls: true
-    servername: "partner.catchplay.com.r3xxe.eu.cc"
-    network: ws
-    ws-opts:
-      path: "/sg-amzfp=chrome"
-      headers:
-        Host: "partner.catchplay.com.r3xxe.eu.cc"
-  - name: "fast-095"
-    type: vmess
-    server: "141.101.114.200"
-    port: 443
-    uuid: "0479eb9d-999d-4bff-ae3f-4f7cc440ce46"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "v2ray2.ssr-free2.xyz"
-    network: ws
-    ws-opts:
-      path: "/dongtaiwang.com"
-      headers:
-        Host: "v2ray2.ssr-free2.xyz"
-  - name: "fast-096"
-    type: trojan
-    server: "216.106.186.32"
-    port: 443
-    password: "dba20dcb635e430fa4d3bfc303a149d2"
-    tls: true
-    servername: "blog.findlocaljobnetworkandbuildcommunityconnections.com"
-  - name: "fast-097"
-    type: vless
-    server: "199.232.78.160"
-    port: 443
-    uuid: "XpnTeam-11"
-    tls: true
-    servername: "ssl.fastly.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "Appxdn.global.ssl.fastly.net"
-  - name: "fast-098"
-    type: vless
-    server: "199.232.78.159"
-    port: 443
-    uuid: "97e0ea78-67ae-4984-8a14-a7d1a51e58de"
-    tls: true
-    servername: "cdn.akamai.steamstatic.com"
-    network: ws
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net."
-  - name: "fast-099"
-    type: vless
-    server: "104.18.45.236"
-    port: 2096
-    uuid: "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
-    tls: true
-    servername: "mohammadhoseini4532.pages.dev"
-    network: ws
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "mohammadhoseini4532.pages.dev"
-  - name: "fast-100"
     type: vless
     server: "199.232.78.120"
     port: 443
@@ -1153,181 +74,229 @@ proxies:
       path: "/"
       headers:
         Host: "ushetzijji.global.ssl.fastly.net."
-  - name: "fast-101"
+  - name: "fast-011"
     type: trojan
-    server: "104.18.152.77"
-    port: 443
-    password: "humanity"
+    server: "69.164.240.85"
+    port: 50875
+    password: "nwilryafgkyvuxauc8pz"
     tls: true
-    servername: "www.ignitelimit.com"
-  - name: "fast-102"
+    servername: "69.164.240.85"
+  - name: "fast-012"
+    type: ss
+    server: "185.230.230.18"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "fast-013"
     type: vmess
-    server: "162.159.135.234"
-    port: 2083
-    uuid: "ac251237-576f-40c8-a543-554960c958b1"
+    server: "142.202.48.87"
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
     alterId: 0
     cipher: "auto"
     tls: true
-    servername: "or3.sfacg.uk"
-    network: ws
-    ws-opts:
-      path: "/or3"
-      headers:
-        Host: "or3.sfacg.uk"
-  - name: "fast-103"
-    type: trojan
-    server: "45.128.76.242"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.trusteeforward.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.trusteeforward.com"
-  - name: "fast-104"
-    type: vmess
-    server: "172.67.207.209"
-    port: 2082
-    uuid: "082122a2-8479-4089-82f0-f32ba5fc5426"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "/bb"
-  - name: "fast-105"
+    servername: "xmfhlpy.com"
+  - name: "fast-014"
+    type: ss
+    server: "149.40.57.138"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "fast-015"
+    type: ss
+    server: "149.40.57.135"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "fast-016"
+    type: ss
+    server: "149.40.57.133"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "fast-017"
+    type: ss
+    server: "172.111.38.72"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "fast-018"
     type: vless
-    server: "151.101.1.242"
-    port: 443
-    uuid: "85726d24-9f41-43fe-9e5e-49e54d9680e0"
-    tls: true
-    servername: "ghosts-spasm.quick-cdn.net"
+    server: "45.138.100.248"
+    port: 14430
+    uuid: "ae908ff5-f749-402c-af25-e6e9aef4d6bb"
     network: ws
     ws-opts:
-      path: "/ws"
+      path: "/vless"
       headers:
-        Host: "ghosts-spasm.quick-cdn.net"
-  - name: "fast-106"
-    type: trojan
-    server: "185.18.250.245"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-107"
-    type: vless
-    server: "188.114.98.0"
-    port: 443
-    uuid: "d4733e5a-5850-4523-942e-f28f82ebf4a9"
-    tls: true
-    servername: "party-5cn.pages.dev"
-    network: ws
-    ws-opts:
-      path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome"
-      headers:
-        Host: "party-5cn.pages.dev"
-  - name: "fast-108"
-    type: trojan
-    server: "104.18.152.108"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-  - name: "fast-109"
-    type: vless
-    server: "146.75.59.186"
-    port: 443
-    uuid: "8d2cbffd-43d0-458d-906b-7c54b7b51f38"
-    tls: true
-    servername: "cdn.akamai.steamstatic.com"
-    network: ws
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "ukoijji.global.ssl.fastly.net"
-  - name: "fast-110"
+        Host: "45.138.100.248"
+  - name: "fast-019"
     type: vmess
-    server: "104.19.21.220"
-    port: 2052
-    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "cdn2.freegradely.xyz"
-  - name: "fast-111"
-    type: vmess
-    server: "172.67.70.22"
-    port: 443
-    uuid: "c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7"
+    server: "38.91.100.16"
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
     alterId: 0
     cipher: "auto"
     tls: true
-    network: ws
-    ws-opts:
-      path: "/AUIKN8AU"
-  - name: "fast-112"
-    type: trojan
-    server: "104.16.71.213"
-    port: 443
-    password: "humanity"
+    servername: "xmfhlpy.com"
+  - name: "fast-020"
+    type: ss
+    server: "149.40.57.134"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "fast-021"
+    type: vmess
+    server: "67.220.95.49"
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    alterId: 0
+    cipher: "auto"
     tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-113"
+    servername: "xmfhlpy.com"
+  - name: "fast-022"
     type: trojan
-    server: "104.17.121.43"
+    server: "66.163.122.46"
     port: 443
-    password: "humanity"
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
     tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-114"
-    type: trojan
-    server: "151.101.110.219"
-    port: 443
-    password: "Mitivpn"
-    tls: true
-    servername: "ssl.fastly.com"
-  - name: "fast-115"
-    type: vless
-    server: "170.114.45.6"
+    servername: "searchnationwidecareerchangehelperandguidancetoday.com"
+  - name: "fast-023"
+    type: ss
+    server: "45.86.51.18"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  - name: "fast-024"
+    type: ss
+    server: "15.235.57.6"
     port: 8080
-    uuid: "990bf436-f1b9-4e7f-857d-14378acc4ae5"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "free.nadun.store"
-  - name: "fast-116"
-    type: trojan
-    server: "167.82.64.120"
-    port: 443
-    password: "MiTiVPN"
+    cipher: "chacha20-ietf-poly1305"
+    password: "kxhnt5jtykd328cg"
+  - name: "fast-025"
+    type: vmess
+    server: "172.111.38.246"
+    port: 1270
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    alterId: 0
+    cipher: "auto"
     tls: true
-    servername: "firefox.com"
+    servername: "xmfhlpy.com"
+  - name: "fast-026"
+    type: ss
+    server: "198.100.154.175"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "3h3hb2gptqz6suyt"
+  - name: "fast-027"
+    type: ss
+    server: "51.222.12.127"
+    port: 445
+    cipher: "aes-256-gcm"
+    password: "zDNVedRFPQexG9v"
+  - name: "fast-028"
+    type: ss
+    server: "192.99.151.230"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "itzvpn@321"
+  - name: "fast-029"
+    type: ss
+    server: "15.204.247.244"
+    port: 4444
+    cipher: "aes-256-gcm"
+    password: "pKEW8JPByTVTLtM"
+  - name: "fast-030"
+    type: ss
+    server: "40.160.86.43"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "itzvpn@321"
+  - name: "fast-031"
+    type: ss
+    server: "15.204.247.206"
+    port: 4444
+    cipher: "aes-256-gcm"
+    password: "pKEW8JPByTVTLtM"
+  - name: "fast-032"
+    type: trojan
+    server: "66.163.122.113"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    servername: "api.searchnationwidecareerchangehelperandguidancetoday.com"
+  - name: "fast-033"
+    type: trojan
+    server: "66.163.122.26"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    servername: "blog.searchnationwidecareerchangehelperandguidancetoday.com"
+  - name: "fast-034"
+    type: trojan
+    server: "66.163.122.30"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    servername: "resources.searchnationwidecareerchangehelperandguidancetoday.com"
+  - name: "fast-035"
+    type: trojan
+    server: "66.163.122.25"
+    port: 443
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    tls: true
+    servername: "cdn.searchnationwidecareerchangehelperandguidancetoday.com"
+  - name: "fast-036"
+    type: ss
+    server: "51.222.141.125"
+    port: 445
+    cipher: "aes-256-gcm"
+    password: "zDNVedRFPQexG9v"
+  - name: "fast-037"
+    type: vless
+    server: "172.67.199.126"
+    port: 2053
+    uuid: "c83f15bf-1817-4ec8-a19f-6393d226434c"
+    tls: true
+    servername: "fast.145779.xyz"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/ws-tesla"
       headers:
-        Host: "firefox.com"
-  - name: "fast-117"
+        Host: "fast.145779.xyz"
+  - name: "fast-038"
+    type: ss
+    server: "15.204.247.124"
+    port: 2375
+    cipher: "aes-256-gcm"
+    password: "faBAoD54k87UJG7"
+  - name: "fast-039"
+    type: vmess
+    server: "www.shopify.com"
+    port: 443
+    uuid: "6a89a215-22bf-4bd7-9642-b95b2e09583a"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    servername: "guanwang.awsno.com"
+    network: ws
+    ws-opts:
+      path: "/hls/cctv5phd.m3u8"
+      headers:
+        Host: "guanwang.awsno.com"
+  - name: "fast-040"
+    type: vless
+    server: "104.16.10.2"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-041"
     type: vless
     server: "104.24.0.1"
     port: 443
@@ -1339,63 +308,57 @@ proxies:
       path: "/tyxyws"
       headers:
         Host: "jp3.yohototo.top"
-  - name: "fast-118"
-    type: trojan
-    server: "104.17.121.9"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-119"
+  - name: "fast-042"
     type: vless
-    server: "saas.sin.fan"
-    port: 2053
-    uuid: "5d7b401c-78fa-4254-872e-6d42bf7e75ec"
-    tls: true
-    servername: "vp11.1145678.xyz"
-    network: ws
-    ws-opts:
-      path: "/videos/forum"
-      headers:
-        Host: "vp11.1145678.xyz"
-  - name: "fast-120"
-    type: vless
-    server: "198.71.232.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime07.workers.dev"
-  - name: "fast-121"
-    type: trojan
-    server: "172.67.231.254"
+    server: "104.21.33.59"
     port: 443
-    password: "humanity"
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     tls: true
-    servername: "www.calmlunch.com"
+    servername: "jp3.yohototo.top"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/tyxyws"
       headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-122"
+        Host: "jp3.yohototo.top"
+  - name: "fast-043"
     type: vmess
-    server: "172.67.199.34"
-    port: 80
-    uuid: "8b6dd709-4d4e-4b92-f542-54a676efbfe4"
+    server: "141.193.213.21"
+    port: 8443
+    uuid: "bd67fcd2-ec34-40a6-aac6-67731f2d7011"
     alterId: 0
     cipher: "auto"
+    tls: true
+    servername: "matrix.phonicsindia.mobi"
     network: ws
     ws-opts:
-      path: "/shares"
-  - name: "fast-123"
+      path: "/"
+      headers:
+        Host: "matrix.phonicsindia.mobi"
+  - name: "fast-044"
+    type: vless
+    server: "104.16.10.185"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-045"
+    type: vless
+    server: "104.27.46.35"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-046"
     type: vless
     server: "172.67.156.147"
     port: 443
@@ -1407,118 +370,9 @@ proxies:
       path: "/tyxyws"
       headers:
         Host: "jp3.yohototo.top"
-  - name: "fast-124"
-    type: vmess
-    server: "23.227.38.24"
-    port: 443
-    uuid: "c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7"
-    alterId: 0
-    cipher: "auto"
-    tls: true
-    servername: "oplg1.cfcdn2.xyz"
-    network: ws
-    ws-opts:
-      path: "/AUIKN8AU"
-      headers:
-        Host: "oplg1.cfcdn2.xyz"
-  - name: "fast-125"
-    type: trojan
-    server: "104.18.152.113"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.ignitelimit.com"
-  - name: "fast-126"
-    type: ss
-    server: "38.143.66.146"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  - name: "fast-127"
+  - name: "fast-047"
     type: vless
-    server: "27.50.49.154"
-    port: 2083
-    uuid: "40af9131-d540-448a-bc56-5bba147a1dc3"
-    tls: true
-    servername: "proxy-34l.pages.dev"
-    network: ws
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "proxy-34l.pages.dev"
-  - name: "fast-128"
-    type: trojan
-    server: "216.106.186.46"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    tls: true
-    servername: "cdn.findlocaljobnetworkandbuildcommunityconnections.com"
-  - name: "fast-129"
-    type: vless
-    server: "172.64.155.209"
-    port: 8443
-    uuid: "4ff70740-8c80-48ae-985f-2afe4924e908"
-    tls: true
-    servername: "pubb.clnahanpnln.workers.dev"
-    network: ws
-    ws-opts:
-      path: "/sync"
-      headers:
-        Host: "pubb.clnahanpnln.workers.dev"
-  - name: "fast-130"
-    type: vless
-    server: "199.232.78.159"
-    port: 443
-    uuid: "8d2cbffd-43d0-458d-906b-7c54b7b51f38"
-    tls: true
-    servername: "cdn.akamai.steamstatic.com"
-    network: ws
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "netherboijji.global.ssl.fastly.net."
-  - name: "fast-131"
-    type: vmess
-    server: "162.159.255.119"
-    port: 2095
-    uuid: "417d27fb-cb93-3bd8-9bf7-71cd91319821"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "/hgcefomn"
-  - name: "fast-132"
-    type: trojan
-    server: "199.232.78.160"
-    port: 443
-    password: "MiTiVPN"
-    tls: true
-    servername: "ssl.fastly.com"
-    network: ws
-    ws-opts:
-      path: "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN"
-      headers:
-        Host: "mitivpn-ss-mitivpn---mitivpn--mitivpn.global.ssl.fastly.net"
-  - name: "fast-133"
-    type: vless
-    server: "172.67.67.89"
-    port: 2083
-    uuid: "bba95b1f-f48c-454b-897b-a6c6bc307df1"
-    tls: true
-    servername: "edge.yzkvm.top"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edge.yzkvm.top"
-  - name: "fast-134"
-    type: vless
-    server: "162.159.254.3"
+    server: "104.21.0.87"
     port: 443
     uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     tls: true
@@ -1528,134 +382,7 @@ proxies:
       path: "/tyxyws"
       headers:
         Host: "jp3.yohototo.top"
-  - name: "fast-135"
-    type: vless
-    server: "104.16.0.1"
-    port: 443
-    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
-    tls: true
-    servername: "jp3.yohototo.top"
-    network: ws
-    ws-opts:
-      path: "/tyxyws"
-      headers:
-        Host: "jp3.yohototo.top"
-  - name: "fast-136"
-    type: vmess
-    server: "104.17.228.155"
-    port: 8880
-    uuid: "4b5e4565-322f-4223-a891-78a84f189726"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "/GdtYWlsLmNvbSJ9LCJjb3V"
-  - name: "fast-137"
-    type: vmess
-    server: "104.19.47.226"
-    port: 8080
-    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @VPNine1"
-      headers:
-        Host: "oiictw.yydsii.com"
-  - name: "fast-138"
-    type: trojan
-    server: "216.106.186.155"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    tls: true
-    servername: "api.findlocaljobnetworkandbuildcommunityconnections.com"
-  - name: "fast-139"
-    type: vmess
-    server: "188.114.96.19"
-    port: 80
-    uuid: "af4be52a-aab3-4db1-a6bb-c23700dcb9c2"
-    alterId: 0
-    cipher: "auto"
-    network: ws
-    ws-opts:
-      path: "/d3d3LmlyYW5ob3N0LmNvbQ=="
-      headers:
-        Host: "https.http.www.net.com.ramseyv2.ir."
-  - name: "fast-140"
-    type: trojan
-    server: "172.67.223.48"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-141"
-    type: trojan
-    server: "216.106.186.66"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    tls: true
-    servername: "www.findlocaljobnetworkandbuildcommunityconnections.com"
-  - name: "fast-142"
-    type: vless
-    server: "199.232.78.160"
-    port: 443
-    uuid: "97e0ea78-67ae-4984-8a14-a7d1a51e58de"
-    tls: true
-    servername: "cdn.akamai.steamstatic.com"
-    network: ws
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net."
-  - name: "fast-143"
-    type: vless
-    server: "fast.145779.xyz"
-    port: 2053
-    uuid: "e3149c82-00f6-4227-b2c0-b78f1dd81279"
-    tls: true
-    servername: "fast.145779.xyz"
-    network: ws
-    ws-opts:
-      path: "/ws-tesla"
-      headers:
-        Host: "fast.145779.xyz"
-  - name: "fast-144"
-    type: trojan
-    server: "104.18.8.83"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "fast-145"
-    type: trojan
-    server: "104.18.152.133"
-    port: 443
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-  - name: "fast-146"
-    type: vless
-    server: "170.114.46.6"
-    port: 2096
-    uuid: "efd11a89-7506-44ce-95b6-6654859f155b"
-    tls: true
-    servername: "pcloud.z-tas.com"
-    network: ws
-    ws-opts:
-      path: "/?telegram---planb_net---planb_net---planb_net---planb_net"
-      headers:
-        Host: "pcloud.z-tas.com"
-  - name: "fast-147"
+  - name: "fast-048"
     type: vmess
     server: "104.21.91.53"
     port: 8443
@@ -1669,39 +396,321 @@ proxies:
       path: "/lMnsZUN4/"
       headers:
         Host: "v2ray1.dozapp.xyz"
-  - name: "fast-148"
-    type: trojan
-    server: "216.106.186.82"
+  - name: "fast-049"
+    type: vless
+    server: "104.16.10.48"
     port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     tls: true
-    servername: "courses.findlocaljobnetworkandbuildcommunityconnections.com"
-  - name: "fast-149"
-    type: vmess
-    server: "185.162.228.229"
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-050"
+    type: vless
+    server: "104.21.70.21"
     port: 443
-    uuid: "c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7"
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-051"
+    type: vless
+    server: "104.16.111.195"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-052"
+    type: vless
+    server: "104.21.34.106"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-053"
+    type: vless
+    server: "104.16.0.1"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-054"
+    type: vmess
+    server: "162.159.130.234"
+    port: 2083
+    uuid: "ac251237-576f-40c8-a543-554960c958b1"
     alterId: 0
     cipher: "auto"
     tls: true
-    servername: "oplg1.cfcdn2.xyz"
+    servername: "cdn.sfacg.uk"
     network: ws
     ws-opts:
-      path: "/AUIKN8AU"
+      path: "/or3"
       headers:
-        Host: "oplg1.cfcdn2.xyz"
-  - name: "fast-150"
-    type: trojan
-    server: "185.18.250.252"
-    port: 443
-    password: "humanity"
+        Host: "or3.sfacg.uk"
+  - name: "fast-055"
+    type: vmess
+    server: "104.21.0.1"
+    port: 2083
+    uuid: "ac251237-576f-40c8-a543-554960c958b1"
+    alterId: 0
+    cipher: "auto"
     tls: true
-    servername: "www.calmlunch.com"
+    servername: "or3.sfacg.uk"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/or3"
       headers:
-        Host: "www.calmlunch.com"
+        Host: "or3.sfacg.uk"
+  - name: "fast-056"
+    type: vless
+    server: "104.16.10.56"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-057"
+    type: vless
+    server: "104.17.50.227"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-058"
+    type: vless
+    server: "104.21.70.228"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-059"
+    type: vless
+    server: "162.159.254.3"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-060"
+    type: vmess
+    server: "162.159.135.234"
+    port: 2083
+    uuid: "ac251237-576f-40c8-a543-554960c958b1"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    servername: "or3.sfacg.uk"
+    network: ws
+    ws-opts:
+      path: "/or3"
+      headers:
+        Host: "or3.sfacg.uk"
+  - name: "fast-061"
+    type: vless
+    server: "172.64.190.13"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-062"
+    type: vmess
+    server: "67.220.95.3"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
+  - name: "fast-063"
+    type: vless
+    server: "104.24.31.89"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-064"
+    type: vless
+    server: "188.114.97.6"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-065"
+    type: vless
+    server: "104.16.10.104"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-066"
+    type: vless
+    server: "104.19.33.25"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-067"
+    type: ss
+    server: "51.222.155.32"
+    port: 5003
+    cipher: "aes-256-gcm"
+    password: "g5MeD6Ft3CWlJId"
+  - name: "fast-068"
+    type: ss
+    server: "51.79.85.185"
+    port: 8118
+    cipher: "aes-256-gcm"
+    password: "cdBIDV42DCwnfIN"
+  - name: "fast-069"
+    type: vless
+    server: "188.114.98.0"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-070"
+    type: vless
+    server: "172.67.217.240"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-071"
+    type: vless
+    server: "104.16.111.102"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-072"
+    type: vless
+    server: "104.19.48.107"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-073"
+    type: vmess
+    server: "188.114.96.3"
+    port: 8443
+    uuid: "60441548-b68e-43b2-8191-e3b884be4b3c"
+    alterId: 0
+    cipher: "auto"
+    tls: true
+    servername: "v2ray1.dozapp.xyz"
+    network: ws
+    ws-opts:
+      path: "/lMnsZUN4/"
+      headers:
+        Host: "v2ray1.dozapp.xyz"
+  - name: "fast-074"
+    type: vless
+    server: "104.16.10.72"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "fast-075"
+    type: vless
+    server: "104.21.6.186"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
 proxy-groups:
   - name: Auto-Fast
     type: url-test
@@ -1781,81 +790,6 @@ proxy-groups:
       - "fast-073"
       - "fast-074"
       - "fast-075"
-      - "fast-076"
-      - "fast-077"
-      - "fast-078"
-      - "fast-079"
-      - "fast-080"
-      - "fast-081"
-      - "fast-082"
-      - "fast-083"
-      - "fast-084"
-      - "fast-085"
-      - "fast-086"
-      - "fast-087"
-      - "fast-088"
-      - "fast-089"
-      - "fast-090"
-      - "fast-091"
-      - "fast-092"
-      - "fast-093"
-      - "fast-094"
-      - "fast-095"
-      - "fast-096"
-      - "fast-097"
-      - "fast-098"
-      - "fast-099"
-      - "fast-100"
-      - "fast-101"
-      - "fast-102"
-      - "fast-103"
-      - "fast-104"
-      - "fast-105"
-      - "fast-106"
-      - "fast-107"
-      - "fast-108"
-      - "fast-109"
-      - "fast-110"
-      - "fast-111"
-      - "fast-112"
-      - "fast-113"
-      - "fast-114"
-      - "fast-115"
-      - "fast-116"
-      - "fast-117"
-      - "fast-118"
-      - "fast-119"
-      - "fast-120"
-      - "fast-121"
-      - "fast-122"
-      - "fast-123"
-      - "fast-124"
-      - "fast-125"
-      - "fast-126"
-      - "fast-127"
-      - "fast-128"
-      - "fast-129"
-      - "fast-130"
-      - "fast-131"
-      - "fast-132"
-      - "fast-133"
-      - "fast-134"
-      - "fast-135"
-      - "fast-136"
-      - "fast-137"
-      - "fast-138"
-      - "fast-139"
-      - "fast-140"
-      - "fast-141"
-      - "fast-142"
-      - "fast-143"
-      - "fast-144"
-      - "fast-145"
-      - "fast-146"
-      - "fast-147"
-      - "fast-148"
-      - "fast-149"
-      - "fast-150"
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: PROXY

@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-17T10:25:01Z",
-  "total_nodes": 150,
+  "updated_at": "2026-11-18T09:55:34Z",
+  "total_nodes": 75,
   "protocols": {
-    "ss": 1,
-    "trojan": 43,
-    "vless": 69,
-    "vmess": 37
+    "ss": 24,
+    "trojan": 6,
+    "vless": 31,
+    "vmess": 14
   },
-  "test_method": "TCP connect latency sorting only (fallback: sing-box binary not available); TCP probe 3s timeout",
+  "test_method": "sing-box real HTTP proxy test (request to https://www.gstatic.com/generate_204 through the node, 8s timeout) after TCP latency probe; sorted by measured HTTP latency through the proxy",
   "sources": [
     "https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/v2ray-base64.txt",
     "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt",
@@ -17,7 +17,7 @@
     "https://raw.githubusercontent.com/Lgkele/node-sub-zixf/main/sub/base64.txt",
     "https://raw.githubusercontent.com/Lgkele/node-sub-zixf/main/sub/v2cross-base64.txt"
   ],
-  "tcp_reachable": 1170,
-  "sing_box_passed": 0,
-  "latency_ms_top": 5.5
+  "tcp_reachable": 1096,
+  "sing_box_passed": 75,
+  "latency_ms_top": 29.5
 }
